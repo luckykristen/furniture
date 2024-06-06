@@ -142,3 +142,71 @@ body {
     border-radius: 5px;
     border: none;
 }
+
+@media all and (max-width: 1000px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .item {
+        height: 70vh;
+    }
+
+    .selected h4 {
+        font-size: 35px;
+        left: 20px;
+    }
+
+    .selected .paragraph {
+        font-size: 25px;
+    }
+
+    .selected .price {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .item {
+        height: 60vh;
+    }
+
+    .selected h4 {
+        font-size: 25px;
+        left: 20px;
+    }
+
+    .selected .paragraph {
+        font-size: 15px;
+    }
+
+    .selected .price {
+        font-size: 20px;
+    }
+
+}
