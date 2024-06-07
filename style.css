@@ -180,6 +180,11 @@ body {
     h1 {
         font-size: 45px;
     }
+
+    .container {
+        flex-direction: column;
+        height: 100vh;
+    }
 }
 
 @media all and (max-width: 500px) {
@@ -207,6 +212,11 @@ body {
 
     .selected .price {
         font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: 100vh;
     }
 
 }
